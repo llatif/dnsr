@@ -7,6 +7,6 @@ for ns in nameservers:
   
   resolver.nameservers = [ns]
   result = resolver.resolve('fred.lon.bnew.org', 'A')
-    
+
   for ipval in result:
-      print('Nameserver', result.nameserver, '\nIP', ipval.to_text())
+    print('Nameserver', result.nameserver, '\nIP', ipval.to_text())
