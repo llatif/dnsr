@@ -1,3 +1,9 @@
+####
+# dnsr - test DNS by querying a single host
+# 
+# Usage: /usr/bin/python3 [hostname]
+####
+
 import argparse
 from dns.resolver import dns
 
